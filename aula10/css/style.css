@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif; /*Peguei no site font goolgle*/
+    margin: 0; /*SEMPRE LEMBRAR DO ;*/
+}
+
+.banner {
+    width: 100%;
+    height: 720px;
+    background-image: url("../img/banner-1280x720.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center; /*centralizar texto*/
+    position: absolute; /* Posição absoluta */
+}
+
+.text-banner{ 
+    position: relative; /* Posição relativa */
+    width: 40%;
+    background-color: white; /*para dar uma cor de fundo na div*/
+    margin: 12% auto; /* 12% cima e baixo / auto das lateriais */
+    padding: 20px 0; /*espaçamento vertical interno*/
+}
+
+h1{
+    color: orange;
+    font-size: 28px;
+    font-weight: bold; /*vai deixar a fonte em negrito*/ 
+    margin-top: 0;
+}
+
+h2{
+    color: black;
+    font-size: 21px;
+}
+
+.btn button{
+    box-sizing: border-box;
+    color: black;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 8px; /*bolda arredondada*/
+}
