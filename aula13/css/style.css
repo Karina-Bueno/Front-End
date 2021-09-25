@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url("../aula17/img/sobremesas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    color: black;
+    font-size: 50px;/* Aumentei mais o tamanho da fonte */
+    line-height: 56px;/* Ajuste altura da linha */
+    font-weight: bold;/*vai deixar a fonte em negrito*/
+    margin-top: 0;
+    margin-bottom: 10px;/* Ajuste da margem inferior */
+    text-align: center;
+  }
+
+  .field {
+    width: 100%;
+  }
+
+  .sobremesa label {/*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 28%;
+    text-align: right;
+    margin-bottom: 15px;
+  }
+
+  .sobremesa input {
+    width: 70%;
+  }
+
+  .sobremesa {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+  }
+
+  .principal {
+    width: 100%;
+    text-align: center;
+  }
+
+  .div2 {
+    background-image: url("../aula17/img/docinhos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 100px;
+    transform: scale(1.0);
+    transition: transform 1s;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .div2:hover {
+    transform: scale(0.5);
+  }
+
+  .div3 {
+    width: 120px;
+    height: 100px;
+    transition: transform 1s;
+    background-image: url("../aula17/img/bolo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+
+  .div3:hover {
+    transform: rotate(60deg) scale(0.5);
+  }
