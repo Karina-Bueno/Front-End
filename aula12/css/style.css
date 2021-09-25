@@ -1,0 +1,33 @@
+body { 
+    height: 800px; 
+    background-image: url("../img/banner.jpg");
+    font-family: 'Roboto', sans-serif; /*Peguei no site font goolgle*/
+    margin: 0; /*SEMPRE LEMBRAR DO ;*/
+    box-sizing: border-box;
+ }
+
+  .nav {   
+      position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+ }
+
+ ul {   
+    list-style: none;
+    display: flex;
+    align-items: center;
+      
+}
+
+ul li{
+    padding: 10px;
+    margin-right: 5px;
+}
+
+ul li a{
+    color:antiquewhite
+}
+
+    
