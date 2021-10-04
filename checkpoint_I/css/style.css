@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif; /*Peguei no site font goolgle*/
+    margin: 0; /*SEMPRE LEMBRAR DO ;*/
+}
+
+header {
+    padding: 20px;
+    background-color: #f0f0f0; /* cor de fundo */
+    box-shadow: 0px 0px 5px 5px #dddddd; /* Efeito de sombra */
+}
+
+h1{
+    color: orange;
+    font-family: 'Alumni Sans', sans-serif; /*Segunda fonte tirada do font google*/
+    font-size: 62px; /* Aumentei mais o tamanho da fonte */
+    line-height: 56px; /* Ajuste altura da linha */
+    font-weight: bold; /*vai deixar a fonte em negrito*/ 
+    margin-top: 0;
+    margin-bottom: 10px; /* Ajuste da margem inferior */
+}
+
+h2{
+    color: black;
+    font-size: 21px;
+}
+
+.banner {
+    width: 100%; /* Aqui pode ser em porcentagem porque é para pegar a largura toda */
+    height: 720px;
+    background-image: url("img/campinas.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center; /*centralizar texto*/
+    position: absolute; /* Posição absoluta */
+    
+}
+
+.video{
+    position: relative; 
+    margin: 0 auto;
+    display: block;
+    width: 1280px; /* Aqui precisa ser em px (pixel), tava em porcentagem */
+    height: 720px;
+}
+
+.text{ 
+    position: relative; /* Posição relativa */
+    width: 80%;
+    background-color: white; /* para dar uma cor de fundo na div */
+    margin: 5% auto; /* 5% cima e baixo / auto das lateriais */
+    padding: 0; /* espaçamento vertical interno, nesse caso acho que não precisa então pode deixar zerado mesmo ou nem colocar esse item */
+}
+
+.icons {
+    position: relative;
+    margin: 30px auto;
+    display: block;
+    width: 1280px; /* Aqui precisa ser em px (pixel), tava em porcentagem */
+    text-align: center; /* Alinhamento de texto ao centro da div ou da página */
+    padding: 20px;
+    background-color: #f0f0f0; /* cor de fundo */
+    box-shadow: 0px 0px 5px 5px #dddddd; /* Efeito de sombra */
+}
+
+.icons a { /* Aqui é para estilizar o link */
+    box-sizing: border-box;
+    width: 70px;
+    height: 50px;
+    display: inline-block;
+}
+
+.icons a i { /* Aqui é para estilizar o ícone, vc pode colocar cores neles se quiser, brinca aí */
+    font-size: 50px;
+}
